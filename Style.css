@@ -1,0 +1,139 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ /* simple body css style by OLUWASEGUN*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{ /* header css style by OLUWASEGUN*/
+    background-color: #fdfdfd;
+    padding: 15px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+margin: 0 15px;
+}
+#hero{
+    background-color: #444;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+ .hero-content{
+    max-width: 800px;
+    margin: 0 auto;
+ }
+ section{
+    padding: 50px;
+    max-width: auto;
+    margin: 0 auto;
+ }
+ h2{
+    margin-bottom: 20px;
+ }
+ #skills ul{
+    list-style-type: none;
+    padding: 0;
+ }
+profile-img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ }
+.profile-img img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 3px solid blue;
+ }
+#about {
+    background-color: rgb(255, 255, 255);
+}
+#about h2{
+    font-size: 2rem;
+    color: blue;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#contact{
+    background-color: #adadad;
+}
+#comment-form h3{
+    text-align: center;
+    color: red;
+}
+#contact h2{
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#contact{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#projects {
+    background-color: #f9f9f9;
+    padding: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+#projects #skills h2{
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.project{
+    margin-bottom: 30px
+}
+.project h3 p {
+    font-size: 1rem;
+    color:#666;
+    margin-bottom: 10px;
+}
+.project a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+#skills{
+    background-color: white;
+    padding: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.social-buttons a {
+    display: flexbox;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+}
+.social-buttons a i {
+margin-right: 8px;
+font-size: 1.5rem;
+}
